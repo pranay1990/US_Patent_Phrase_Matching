@@ -30,8 +30,11 @@ The scores are in the 0-1 range with increments of 0.25 with the following meani
 # Table of contents and short description
 1. **basic-eda-and-data-preprocessing.ipynb** : Basic exploratory Data Analysis on the dataset is done.
 2. **Roberta-model-approach.ipnyb** : Build the simple Roberta based NLP model. The Pearson Correlation coefficient for this model was 0.75. This saved model is used to build the web app, and the web app will be uploaded soon.
-3. **new-tensorflow-deberta-v3-large-model-uspppm.ipynb** : This is the best performing NLP model which based on Deberta V3 Large model. The Pearson Correlation coefficient for this model was 0.8436. The more details about the model see the Jupyter Notebook.
+3. **new-tensorflow-deberta-v3-large-model-uspppm.ipynb** : This is the best performing NLP model which based on Deberta V3 Large model. ***The Pearson Correlation coefficient for this model was 0.8436***. The more details about the model see the Jupyter Notebook.
 4. **tf-deberta-v3large-phase2.ipynb** : This notebook we primarily use the saved model weights in **new-tensorflow-deberta-v3-large-model-uspppm.ipynb** for predicting the results for the test set.
 5. **train** : the training set, containing phrases, contexts, and their similarity scores
 6. **titles** : this dataset hold the description of each category in the **context** column
 7. **test.csv** : the test set set, identical in structure to the training set but without the score
+
+# Score
+The highest score (Pearson Correlation Coefficient) which I achieved in the competition was 0.8436.
